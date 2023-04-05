@@ -31,33 +31,26 @@ body {
 }
 /* NAVIGATION */
 
-.menu-link {
-  font-family: "Roboto";
+.site-nvg .link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-link:hover,
-.menu-link:focus {
+
+.site-nvg.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
 /* BUTTON */
 
 .button {
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
   cursor: pointer;
 }
 .button:hover,
@@ -66,17 +59,16 @@ body {
 }
 
 /* CONTACTS */
-
-.contacts-link {
-  font-family: "Roboto";
+.address {
   font-style: normal;
-  font-size: 16px;
-  line-height: 24px;
+}
+.address .link {
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-link:hover,
-.contacts-link:focus {
+.address .link:hover,
+.link:focus {
   color: #404bbf;
 }
 
@@ -85,7 +77,6 @@ body {
   background: #2e2f42;
 }
 .hero-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -93,13 +84,20 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.main-hero .button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.main-hero .button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
 
 /* ABOUT SECTION */
 .sub-title {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -110,7 +108,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -125,10 +122,6 @@ body {
 
 /* FOOTER SECTION */
 .footer-text {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 .main-footer {
@@ -137,7 +130,6 @@ body {
 
 /* SERVICES SECTION */
 .section-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
