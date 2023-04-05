@@ -38,7 +38,7 @@ body {
   color: var(--dark-color);
 }
 
-.site-nvg.link:hover,
+.site-nvg .link:hover,
 .link:focus {
   color: var(--pressed-state-color);
 }
